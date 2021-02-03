@@ -4,10 +4,10 @@ body {
     background-size: 100%;
     text-align: center;
     position: static;
-    display:flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
+    display:flex; /* flexbox */
+    flex-direction: column; /* establece la direccion principal del alineamiento y alinea en esa direccion */
+    align-items: center; /* alinea en la direccion secundaria */
+    justify-content: center; /* alinea en la direccion principal */
 }
 
 h1 {
